@@ -3,8 +3,8 @@ function appendOperation (operation) {
 };
 
 function calculateResult() {
-    let container = document.getElementById("resultArea");
-    let result = Function(container.innerHTML);
+    let container = document.getElementById("resultArea"); 
+    let result = Function(`"use strict";return (container.innerHTML)`);
     container.innerHTML = result;
 }
 
