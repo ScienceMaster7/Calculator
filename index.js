@@ -4,7 +4,7 @@ function appendOperation (operation) {
 
 function calculateResult() {
     let container = document.getElementById("resultArea");
-    let result = eval(container.innerHTML);
+    let result = Function(container.innerHTML);
     container.innerHTML = result;
 }
 
