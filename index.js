@@ -5,6 +5,7 @@ function appendOperation (operation) {
 function calculateResult() {
     let container = document.getElementById("resultArea"); 
     let result = container.innerHTML;
+    console.log(result)
    // container.innerHTML = result;
 }
 
