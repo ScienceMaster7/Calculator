@@ -3,7 +3,7 @@ function appendOperation (operation) {
 };
 
 function calculateResult() {
-    let container = document.getElementById("resultArea");
+    let container = document.getElementById("resultArea"); 
     let result = eval(container.innerHTML);
     container.innerHTML = result;
 }
